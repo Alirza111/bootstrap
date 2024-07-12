@@ -1,0 +1,163 @@
+.navdiv2 {
+   width: 40%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.navdiv2 a:hover {
+   color: yellow;
+   transition: 1s;
+}
+
+.navdiv2 a {
+   color: white;
+}
+
+.secDiv {
+   height: 600px;
+}
+
+.divPhoto {
+   height: 730px;
+   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+   background-size: cover;
+}
+
+.tex1 {
+   text-align: center;
+}
+
+.tex1 h1 {
+   font-size: 70px;
+}
+
+.tex1 h3 {
+   font-size: 35px;
+}
+
+.tex1 button {
+   color: white;
+   font-weight: bold;
+   background-color: #ffc801 !important;
+}
+
+.tex1 button:hover {
+   color: white;
+   opacity: 0.7;
+}
+
+.servisesDiv {
+   height: 550px;
+}
+
+.mainText h2 {
+   font-size: 50px;
+   letter-spacing: 2px;
+}
+
+.mainText p {
+   font-size: 15px;
+   letter-spacing: 2px;
+   color: grey;
+}
+
+.iconBox1 {
+   width: 150px;
+   height: 150px;
+}
+
+.icon1 p {
+   text-align: center;
+   color: grey;
+}
+
+.icon2 p {
+   text-align: center;
+   color: gray;
+}
+
+.icon3 p {
+   text-align: center;
+   color: grey;
+}
+
+.bg-hidden {
+   width: 100%;
+   height: 100%;
+   background-color: #ffc801;
+   position: absolute;
+   top: 0;
+   display: none;
+   justify-content: center;
+   align-items: center;
+   opacity: 0.7;
+}
+
+.bg-hidden i {
+   font-size: 2rem;
+   color: #fff;
+   opacity: 1;
+}
+
+
+.parentimg {
+   width: 25rem;
+   position: relative;
+   height: 19rem;
+
+}
+
+
+.parentimg:hover .bg-hidden {
+   display: flex;
+
+}
+
+.spaceDiv {
+   height: 30px;
+}
+
+.textP {
+   text-align: center;
+   height: 200px;
+
+}
+
+.secP1 {
+   background-color: #f8f9fb;
+}
+
+.secP2 {
+   background-color: #f8f9fb;
+   padding-bottom: 30px;
+}
+
+/* .boxAbout{
+   padding: 10px 50px;
+ 
+}
+.boxAboutText{
+   padding: 20px 30px;
+   font-size: 15px;
+  
+}
+.left-boxAbout{
+   left: 0;
+}
+.right-boxAbout{
+   left: 50%;
+} */
+
+/* .divTeam{
+   height: 600px;
+}
+
+.boxTeam{
+   height: 300px;
+   background-color: #ffc801;
+}
+.boxPhoto{
+   margin-right: auto !important;
+    margin-left: auto !important;
+    box-sizing: border-box;
+} */
